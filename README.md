@@ -5,3 +5,4 @@
 |날짜|문제|
 |-|-|
 |3/4|[Sock Merchant](https://github.com/kys9261/daily-codingTest-practice/blob/master/hackerrank/interview-preparation-kit/warm-up%20challenges/sock-merchant.md)
+|3/5|[Counting Valleys](https://github.com/kys9261/daily-codingTest-practice/blob/master/hackerrank/interview-preparation-kit/warm-up%20challenges/counting-valleys.md)

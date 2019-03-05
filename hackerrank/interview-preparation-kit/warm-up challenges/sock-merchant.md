@@ -1,16 +1,14 @@
 
-# Sock Merchant
+# [Sock Merchant](http://hr.gs/eabbdd)
 
 ## Problem
-
 John works at a clothing store. He has a large pile of socks that he must pair by color for sale.
 Given an array of integers representing the color of each sock, 
 determine how many pairs of socks with matching colors there are **n = 7**.
 For example, there are  socks with colors **ar = [1,2,1,2,1,3,2]**. There is one pair of color **1** and one of color **2**. 
 There are three odd socks left, one of each color. The number of pairs is **2**.
 
-### Function Description
-
+## Function Description
 Complete the sockMerchant function in the editor below. 
 It must return an integer representing the number of matching pairs of socks that are available.
 
@@ -19,32 +17,32 @@ sockMerchant has the following parameter(s):
 * n: the number of socks in the pile
 * ar: the colors of each sock
 
-### Input Format
-
-The first line contains an integer n, the number of socks represented in **ar**. 
+## Input Format
+The first line contains an integer n, the number of socks represented in **ar**.
 The second line contains **n** space-separated integers describing the colors **ar[i]** of the socks in the pile.
 
-### Constraints
-* 1 <= n <= 100
-* 1 <= ar[i] <= 100  where  0 <= i < n
+## Constraints
+* ![math](https://latex.codecogs.com/gif.latex?1%20%5Cleq%20n%20%5Cleq%20100)
+* ![math](https://latex.codecogs.com/gif.latex?1%20%5Cleq%20ar%5Bi%5D%20%5Cleq%20100)&nbsp;&nbsp;**where**&nbsp;&nbsp;![math](https://latex.codecogs.com/gif.latex?0%20%5Cleq%20i%20%3C%20n)
 
-###Output Format
-
+## Output Format
 Return the total number of matching pairs of socks that John can sell.
 
-### Sample Input
+## Sample Input
 ```
 9  
 10 20 20 10 10 30 50 10 20
 ```
-### Sample Output
+
+## Sample Output
 ```
 3
 ```
-### Explanation
+
+## Explanation
 ![explanation](https://s3.amazonaws.com/hr-challenge-images/25168/1474122392-c7b9097430-sock.png)
 
-### Solution
+## Solution
 ```java
 static int sockMerchant(int n, int[] ar) {
     Map<Integer, Integer> map = new HashMap<>();
@@ -69,11 +67,11 @@ static int sockMerchant(int n, int[] ar) {
         }
     }
     return cnt;
-}    
+}
 ```
 
-### Description
-1. Map을 만들고 양말을 key값으로, 갯수를 value값으로 만들어서 넣는다.  
+## Description
+1. Map을 만들고 양말을 key값으로, 갯수를 value값으로 만들어서 넣는다.
 2. 반복문을 통해서 양말의 갯수가 2개(1쌍) 이상일때, 양말의 갯수를 2로 나눈 몫으로 해당 양말 쌍의 갯수를 구한다.
 3. 모든 양말을 체크해서 양말 쌍의 갯수를 모두 더해 return 한다.
 
