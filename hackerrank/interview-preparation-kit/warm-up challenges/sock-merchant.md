@@ -22,8 +22,8 @@ The first line contains an integer n, the number of socks represented in **ar**.
 The second line contains **n** space-separated integers describing the colors **ar[i]** of the socks in the pile.
 
 ## Constraints
-* ![math](https://latex.codecogs.com/gif.latex?1%20%5Cleq%20n%20%5Cleq%20100)
-* ![math](https://latex.codecogs.com/gif.latex?1%20%5Cleq%20ar%5Bi%5D%20%5Cleq%20100)&nbsp;&nbsp;**where**&nbsp;&nbsp;![math](https://latex.codecogs.com/gif.latex?0%20%5Cleq%20i%20%3C%20n)
+* ![constraints0](https://latex.codecogs.com/gif.latex?1%20%5Cleq%20n%20%5Cleq%20100)
+* ![constraints1](https://latex.codecogs.com/gif.latex?1%20%5Cleq%20ar%5Bi%5D%20%5Cleq%20100)&nbsp;&nbsp;**where**&nbsp;&nbsp;![math](https://latex.codecogs.com/gif.latex?0%20%5Cleq%20i%20%3C%20n)
 
 ## Output Format
 Return the total number of matching pairs of socks that John can sell.

@@ -25,8 +25,8 @@ The first line contains an integer , the number of steps in Gary's hike.
 The second line contains a single string , of  characters that describe his path.
 
 ## Constraints
-* ![math](https://latex.codecogs.com/gif.latex?2%20%5Cleq%20n%20%5Cleq%2010%5E6)
-* ![math](https://latex.codecogs.com/gif.latex?s%5Bi%5D%20%5Cin%20%5Cleft%20%5C%7B%20UD%20%5Cright%20%5C%7D)
+* ![constraints0](https://latex.codecogs.com/gif.latex?2%20%5Cleq%20n%20%5Cleq%2010%5E6)
+* ![constraints1](https://latex.codecogs.com/gif.latex?s%5Bi%5D%20%5Cin%20%5Cleft%20%5C%7B%20UD%20%5Cright%20%5C%7D)
 
 ## Output Format
 Print a single integer that denotes the number of valleys Gary walked through during his hike.
