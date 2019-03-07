@@ -54,18 +54,18 @@ He enters and leaves one valley.
 ## Solution
 ```java
 static int countingValleys(int n, String s) {
-    String[] steps = s.trim().split("");
+    char[] steps = s.toCharArray();
 
     int lat = 0;
     int cnt = 0;
     for(int i=0; i<n; i++){
-        if(steps[i].equals("D")){
+        if(steps[i] == 'D'){
             lat -= 1;
         }else{
             lat += 1;
         }
 
-        if(steps[i].equals("U") && lat == 0){
+        if(steps[i] == 'U' && lat == 0){
             cnt = cnt+1;
         }
     }
