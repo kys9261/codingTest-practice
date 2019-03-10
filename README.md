@@ -8,3 +8,4 @@
 |3/5|[Counting Valleys](https://github.com/kys9261/daily-codingTest-practice/blob/master/hackerrank/interview-preparation-kit/warm-up%20challenges/counting-valleys.md)||
 |3/6|[Jumping on the Clouds](https://github.com/kys9261/daily-codingTest-practice/blob/master/hackerrank/interview-preparation-kit/warm-up%20challenges/jumping-on-the-clouds.md)|:pencil2:|
 |3/7|[Repeated String](https://github.com/kys9261/daily-codingTest-practice/blob/master/hackerrank/interview-preparation-kit/warm-up%20challenges/repeated-string.md)||
+|3/9|[2D Array - DS](https://github.com/kys9261/daily-codingTest-practice/blob/master/hackerrank/interview-preparation-kit/arrays/2dArray-ds.md)||
