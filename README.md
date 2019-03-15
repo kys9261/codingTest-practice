@@ -1,4 +1,4 @@
-# codingTest-practice
+# codingTest-practise
 코딩테스트 연습 및 markdown 문법 연습을 위한 레파지토리
 * ~~1일 최소 1개 이상의~~ 코딩테스트를 풀고 기록한다.  
   알고리즘에 대한 공부가 부족하다보니 문제가 어려울경우 시간이 많이 소요됨을 느껴서  
